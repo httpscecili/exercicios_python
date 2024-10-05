@@ -9,8 +9,13 @@ lista_media_final.insert = [ nota1 , nota2 , nota3 , nota4 ]
 
 media_notas = ( nota1 + nota2 + nota3 + nota4 )/4
 
-  if media_notas > 7 :
+  if media_notas >= 7 :
     print("APROVADO")
     
-  else 
+  else :
+    nota_final = float(input("Insira a nota da prova final: "))
+    nova_media = (media_notas + nota_final) / 2
+    if nova_media >= 5:
+    print("APROVADO")
+    else:
     print("REPROVADO")
