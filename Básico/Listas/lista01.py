@@ -9,6 +9,6 @@ lista_notas.insert = [ nota1 , nota2 , nota3 , nota4]
 
 media_notas = sum(lista_notas) / len(lista_notas)
 
-print(min("A menor das notas é: ", lista_notas))
-print(max("A maior das notas é: ", lista_notas))
+print("A menor das notas é: ", min(lista_notas))
+print("A maior das notas é: ", max(lista_notas))
 print("A média das notas é: ", media_notas)
