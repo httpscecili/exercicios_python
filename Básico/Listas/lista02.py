@@ -7,7 +7,7 @@ nota4 = float(input("Insira a quarta nota: "))
 
 lista_media_final.insert = [ nota1 , nota2 , nota3 , nota4 ]
 
-media_notas = ( nota1 + nota2 + nota3 + nota4 )/4
+media_notas = sum(lista_media_final) / len(lista_media_final)
 
   if media_notas >= 7 :
     print("APROVADO")
