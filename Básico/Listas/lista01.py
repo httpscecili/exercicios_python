@@ -7,7 +7,7 @@ nota4 = float(input("Insira a quarta nota: "))
 
 lista_notas.insert = [ nota1 , nota2 , nota3 , nota4]
 
-media_notas = (nota1 + nota2 + nota3 + nota4)/4
+media_notas = sum(lista_notas) / len(lista_notas)
 
 print(min("A menor das notas é: ", lista_notas))
 print(max("A maior das notas é: ", lista_notas))
